@@ -21,7 +21,7 @@ public class Main {
             int y = Integer.parseInt(argv[2]);
 
             int res = calc.add(x, y);
-            
+
             System.out.println(res);
 
         }
