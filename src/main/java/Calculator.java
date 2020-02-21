@@ -49,7 +49,7 @@ class Calculator {
             nums.add(nums.get(i-1) + nums.get(i-2));
         }
 
-        return nums.get(n + 1);
+        return nums.get(n);
     }
 
 
