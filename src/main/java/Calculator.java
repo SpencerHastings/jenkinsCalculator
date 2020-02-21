@@ -48,6 +48,7 @@ class Calculator {
         for(int i = 2; i <= n; i++) {
             nums.add(nums.get(i-1) + nums.get(i-2));
         }
+        
         return nums.get(n);
     }
 
